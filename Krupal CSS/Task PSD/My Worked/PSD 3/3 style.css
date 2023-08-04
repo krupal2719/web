@@ -234,6 +234,10 @@ header{
     font-size: 25px;
     /* font-family: 'Oswald', sans-serif; */
 }
+.shape-25{
+    top: 85px;
+    left: 653px;
+}
 .sec-six{
     padding:100px 0;
 }
@@ -261,7 +265,7 @@ header{
 .sub-text-2 h3{
     font-size: 30px;
     color: #484f5b;
-    padding: 10px 0 20px 0;
+    padding: 20px 0;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -273,5 +277,158 @@ header{
     margin:0 auto;
     text-align: center;
 }
+.sec-six{
+    overflow: hidden;
+}
+.shape-26{
+    z-index: -1;
+    top: 175px;
+    left: 65px;
+}
+.shape-27{
+    z-index: -1;
+    top: 80px;
+    left: 65px;
+}
+.shape-28{
+    top: 0;
+    right: 0;
+}
+.shape-29{
+    top: 0;
+    right: 0;
+}
+.shape-30{
+    top: 140px;
+    right: 0;
+}
+.shape-31{
+    z-index: -1;
+    bottom: 220px;
+    left: 450px;
+}
+.shape-32{
+    z-index: -1;
+    bottom: 60px;
+    right: 25px;
+}
+.shape-33{
+    z-index: -1;
+    bottom: 155px;
+    right: 50px;
+}
+.shape-34{
+    left: 0;
+    bottom: 0;
+}
+.shape-35{
+    left: 0;
+    bottom: 0;
+}
+.sec-seven{
+    padding: 100px 0;
+    background-color: rgb(245, 196, 204);
+}
+.sec-seven i{
+    font-size: 30px;
+    margin: 0 5px;
+    color: #555555;
+} .shape-36{
+    top: 250px;
+    z-index: 1;
+    left: 380px;
+} 
+.shape-37{
+    top: 100px;
+    left: 110px;
+}
+.sec-eight{
+    padding: 100px 0;
+}
+.sec-eight h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #555555;
+}
+.sec-eight p{
+    font-size: 20px;
+    width: 59%;
+    padding: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    color: #555555;
+}
+input{
+    width: 50%;
+    margin: 10PX 0;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.Messages{
+    padding: 10px 10px 40px 10px;
+}
+button{
+    color: #555555;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(223, 162, 172);
+    border: none;
+    display: block;
+    margin: 25px auto;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+.shape-38{
+    top: 0;
+
+}
+footer{
+    padding: 100px 0;
+    background-color: #484f5b
+}
+.last-text-1 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.last-text-1 p{
+    font-family: 'Oswald', sans-serif;
+    width: 45%;
+    padding: 15px 0;
+    font-size: 15px;
+    color: white;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.last-sub-text h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.last-sub-text-1 ul li {
+    padding: 5px  0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.last-sub-text-2{
+    padding-top: 90px ;
+}
+.last-sub-text-2 p {
+    color: white;
+    padding: 5px 0;
+}
+.last-sub-text-2 i {
+    padding: 5px 10px ;
+    background-color: white;
+    margin: 10px;
+}
+
 
 
