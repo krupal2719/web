@@ -361,11 +361,15 @@ header{
     color: #555555;
 }
 input{
-    width: 50%;
-    margin: 10PX 0;
+    width: 70%;
+    margin: 20px 0;
     font-family: 'Oswald', sans-serif;
     padding: 10px 10px;
     color: white;
+}
+.inputs{
+    text-align: center;
+    color: #efefef;
 }
 .Messages{
     padding: 10px 10px 40px 10px;
@@ -381,8 +385,29 @@ button{
     font-weight: 600;
 }
 .shape-38{
+    z-index: -1;
+    top: 90px;
+    left: 70px;
+}
+.shape-39{
+    top: 25px;
+    left: 70px;
+}
+.shape-40{
     top: 0;
-
+    right: 0;
+}
+.shape-41{
+    top: 0;
+    right: 0;
+}
+.shape-42{
+    top: 138px;
+    right: 0;
+}
+.shape-43{
+    bottom: 20px;
+    right: 280px;
 }
 footer{
     padding: 100px 0;
