@@ -5,9 +5,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
   
 .container{
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    /* border: solid 1px; */
 }
 header{
     background-color: #21243d;
@@ -26,14 +25,18 @@ header{
 .po-ab{
     position: absolute;
 }
+.col-90{
+    width: 100%;
+}
 .col-30{
-    width: 30%;
+    width: 100%;
 }
 .col-45{
-    width: 45%;
+    width: 100%;
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .jcs{
     justify-content: space-between;
@@ -58,14 +61,14 @@ header{
     padding: 100px 0;
 }
 .sec-one-taxt h1 {
-    padding: 100px 0 50px 0;
+    padding: 60px 0;
     font-size: 100px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 .sec-one-taxt p{
-    padding: 0 0 50px 0;
+    padding: 30px 0;
     width: 50%;
     font-size: 25px;
     color: white;
@@ -102,6 +105,7 @@ header{
     border-radius: 70%;
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 .sec-two-subtaxt h3{
     font-size: 30px;
@@ -130,11 +134,10 @@ header{
 .sec-three h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 90px;
-    margin: 0 0 30px 0;
 }
 .sec-three p{
     font-family: 'Montserrat', sans-serif;
-    margin: 0 0 50px 0;
+    margin: 40px 0;
     font-size: 35px;
 }
 .sec-three-taxt button{
@@ -152,7 +155,7 @@ header{
     padding: 100px 0;
 }
 .sec-four-tatx h3{
-    margin: 0 0 20px 0;
+    margin: 10px 0;
     font-size: 60px;
     text-align: center;
     color: white;
@@ -161,18 +164,22 @@ header{
     font-size: 30px;
     text-align: center;
     color: white;
-    width: 50%;
+    width: 52%;
+    padding: 40px 0;
     margin: 0 auto;
 }
-.box-1{
-    border: solid 5px white ;
-    padding: 90px 70px ;
-    margin: 40px 90px;
-    border-radius: 50%;
+.box-1 h3{
+    font-size: 30px;
     color: white;
-    font-size: 25px;
+}
+.box-1{
+    justify-content: space-between;
+    border: solid 3px white;
+    padding: 60px 45px;
+    margin: 0px 93px;
     text-align: center;
-} 
+    border-radius: 50%;
+}
 .sec-five{
     background-color: #ffd17e;
 }
@@ -182,12 +189,12 @@ header{
 .sec-five-taxt h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 90px;
-    margin: 0 0 30px 0;
+    padding: 10px 0;
 }
 .sec-five-taxt p{
     font-family: 'Montserrat', sans-serif;
      font-size: 35px;
-     margin: 0 0 50px 0;
+     padding: 20px 0;
 }
 .sec-five-taxt button{
     padding: 10px 50px;
@@ -206,26 +213,30 @@ header{
 .cart-5{
     padding: 100px  0;
 }
+.sec-six-img{
+    width: 100%;
+}
 .cart-5 img{
     display: block;
     border-radius: 90%;
-    width: 10%;
     margin: 0 auto;
 }
 .sec-six-taxt p{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     text-align: center;
+    color: white;
     padding: 30px 20px;
 }
 .sec-six-taxt h4{
     font-size: 30px;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     padding: 30px 0 0 0;
     text-align: center;
 }
 .sec-seven{
-    height: 600px;
+    /* height: 600px; */
     background-color:#ffd17e ;
 }
 .cart-6{
@@ -233,7 +244,7 @@ header{
 }
 .sec-seven-taxt h4{
     font-size: 70px;
-    margin: 80px 0 0 0 ;
+    margin: 50px 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -241,13 +252,13 @@ header{
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    padding: 0 0 30px 0;
+    padding: 30px 0;
     text-align: center;
     font-size: 28px ;
 }
 .input{
     width: 60%;
-    margin: 0 auto;
+    margin: 60px auto;
     text-align: center;
     padding: 30px 0;
 }
@@ -260,15 +271,12 @@ header{
     color: white;
 }
 .input input{
-    padding: 10px ;
+    padding: 10px;
     width: 60%;
     border-radius: 20px 0 0 20px;
     border: none;
     outline: none;
     background-color: #fff;
-}
-.col-40{
-    width: 90%;
 }
 .main-text-3{
     width: 100%;
@@ -281,27 +289,24 @@ footer{
 }
 .main-text-3{
     padding: 100px 0;
-    display: flex;
-    justify-content: center;
 }
 .main-text-3 h3{
     font-size: 30px;
-    margin: 0 0 30px 0;
     color: white;
     font-family: 'Oswald', sans-serif;
 }
 .main-text-3 p{
     color: white;
-    padding: 10px 0 10px 0;
+    padding: 13px 0;
     width: 55%;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
-.sec-nine-subtext ul li{
+.col-30 ul li{
     list-style: none;
-    padding: 10px 0 0 0;
+    padding: 5px 0;
 }
-li a{
+.col-30 li a{
     text-decoration: none;
     color: white;
     font-family: 'Oswald', sans-serif;  
@@ -316,7 +321,6 @@ li a{
     font-size: 25px;
     color: white;
     font-family:'Oswald', sans-serif ;
-    margin: 0 0 30px 0;
 }
 .sec-two{
     overflow: hidden;
@@ -447,3 +451,47 @@ li a{
     top: 30px;
     right: -55px;
 }
+
+@media(min-width:1200px){
+    .container{
+        width: 1100px;
+    }
+    .col-30{
+        width: 30%;
+    } 
+    .col-45{
+        width: 45%;
+    }
+    .col-90{
+        width: 90%;
+    }
+    .box-1{
+        padding: 100px 55px;
+        margin: 60px 0px;
+        border-radius: 50%;
+        width: 50%;
+    }
+    .sec-three p{
+        width: 90%; 
+        font-size: 25px;        
+    }
+    .sec-four-tatx p{
+        width: 59%;
+        font-size: 25px;
+    }
+    .sec-five-taxt p {
+        width: 90%;
+        font-size: 25px;
+    }
+    .sec-six-taxt p{
+        width: 48%;
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sec-seven-taxt p{
+        width: 75%;
+        font-size: 30px;    
+    }
+    
+} 
