@@ -5,7 +5,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
   
 .container{
-    width: 1300px;
+    width: 100%;
     margin: 0 auto;
 }
 header{
@@ -37,6 +37,7 @@ header{
 .row{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .jcs{
     justify-content: space-between;
@@ -454,6 +455,10 @@ footer{
     top: 30px;
     right: -55px;
 }
+.footer-text{
+    display: flex;
+    flex-wrap: nowrap;
+} 
 
 @media(min-width:1200px){
     .container{
@@ -499,6 +504,5 @@ footer{
     .sec-seven-taxt p{
         width: 75%;
         font-size: 30px;    
-    }
-    
+    }   
 }

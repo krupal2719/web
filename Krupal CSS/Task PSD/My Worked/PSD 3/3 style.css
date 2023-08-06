@@ -10,8 +10,14 @@
 header{
     background-color: antiquewhite;
 }
+.col-30{
+    width: 30%;
+}
 .col-45{
     width: 45%;
+}
+.col-25{
+    /* width: 25%; */
 }
 .po-rel{
     position: relative;
@@ -259,9 +265,6 @@ header{
 .col-30 img{
     width: 100%;
 }
-.col-30{
-    width: 30%;
-}
 .sub-text-2 h3{
     font-size: 30px;
     color: #484f5b;
@@ -369,10 +372,10 @@ input{
 }
 .inputs{
     text-align: center;
-    color: #efefef;
+    color: #e9d2d2;
 }
 .Messages{
-    padding: 10px 10px 40px 10px;
+    padding: 10px 10px 60px 10px;
 }
 button{
     color: #555555;
@@ -406,12 +409,30 @@ button{
     right: 0;
 }
 .shape-43{
-    bottom: 20px;
-    right: 280px;
+    bottom: 40px;
+    right: 325px;
+}
+.shape-44{
+    z-index: -1;
+    right: 65px;
+    bottom: 95px;
+}
+.shape-45{
+    right: 85px;
+    bottom: 120px;
+}
+.shape-46{
+   left: 0;
+   bottom: 0;
+}
+.shape-47{
+    left: 0;
+    bottom: 0;
 }
 footer{
     padding: 100px 0;
-    background-color: #484f5b
+    background-color: #484f5b;
+    /* width: 100%; */
 }
 .last-text-1 h3{
     font-family: 'Oswald', sans-serif;
@@ -453,6 +474,10 @@ li a{
     padding: 5px 10px ;
     background-color: white;
     margin: 10px;
+}
+.shape-48{
+    right: 210px;
+    top: 95px;
 }
 
 
