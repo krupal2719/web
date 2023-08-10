@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Noto+Serif&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Pacifico&family=Preahvihear&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Noto Serif', serif; */
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;
+}
+.img{
+    margin: 0 10px;
+}
+.align{
+    align-items: center;
+}
+.location .option{
+    padding: 10px 0;
+}
+select{
+    padding: 15px 45px;
+    margin: 0 2px;
+}
+.location i{
+    position: absolute;
+    left: 270px;
+    top: 25px;
+    color: rgb(243, 75, 75);
+}
+.inputs i{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 450px;
+}
+.inputs{
+    width: 40%;
+    padding: 10px 0;
+}
+.inputs input{
+    position: relative;
+    padding: 15px 40px;
+    width: 85%;
+}
+.links ul li{
+    display: inline-block;
+    list-style: none;
+}
+.links{
+    margin: 0 40px;
+}
+.links a{
+    font-size: 20px;
+    margin: 0 20px;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+}
+.icon-2{
+    margin: 10px 60px;
+}
+.icon-2 h2{ 
+    padding: 0 10px;
+    color: rgb(248, 128, 128);
+}
+.icon-2:hover{
+    border-bottom: solid 2px red;
+}
+.icon-3{
+    margin: 10px 60px;
+}
+.icon-3 h2{
+    padding: 0 10px;
+    color: rgb(248, 128, 128);
+}
+.icon-3:hover{
+    border-bottom: solid 2px red;
+}
+.sec-one{
+    padding: 20px 0;
+    background-color: beige;
+    /* position: sticky;
+    top: 0;
+    width: 100%; */
+}
+.filter ul li{
+    list-style: none;
+}
+.filter a{
+    color: black;
+    font-size: 20px;
+   text-decoration: none;
+}
+.filter{
+    border: solid 2px;
+    border-radius: 5px;
+    margin: 10px 25px;
+    padding: 5px 5px;
+    opacity: 0.5;
+}
+.filter i{
+    padding: 4px 10px;
+}
+.sec-two{
+    /* height: 1400px; */
+    padding: 25px 0;
+    background-color: rgba(217, 222, 227, 0.501);
+}
+.sec-two h2{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.sec-two-taxt img{
+    border-radius: 50%;
+}
+.sec-two-taxt h3{
+    text-align: center;
+}
+.sec-three{
+    padding: 25px 0;
+}
+.sec-three-taxt img{
+    border-radius: 50%;
+}
+
+.sec-three h2{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.sec-Three-taxt h3{
+    text-align: center;
+}
+
+
+
+
+
+
