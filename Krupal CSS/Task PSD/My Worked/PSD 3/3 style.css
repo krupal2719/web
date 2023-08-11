@@ -4,17 +4,18 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Pacifico&family=Sacramento&display=swap');
 .container{
-    width: 1300px;
+    /* width: 1300px; */
+    width: 100%;
     margin: 0 auto; 
 }
 header{
     background-color: antiquewhite;
 }
 .col-30{
-    width: 30%;
+    width: 100%;
 }
 .col-45{
-    width: 45%;
+    width: 100%;
 }
 .col-25{
     /* width: 25%; */
@@ -332,6 +333,9 @@ header{
     padding: 100px 0;
     background-color: rgb(245, 196, 204);
 }
+.sec-seven img{
+    width: 100%;
+}
 .sec-seven i{
     font-size: 30px;
     margin: 0 5px;
@@ -377,7 +381,7 @@ input{
 .Messages{
     padding: 10px 10px 60px 10px;
 }
-button{
+.btn-2 button{
     color: #555555;
     font-family: 'Oswald', sans-serif;
     background-color: rgb(223, 162, 172);
@@ -478,6 +482,31 @@ li a{
 .shape-48{
     right: 210px;
     top: 95px;
+}
+@media(min-width:992){
+    .container{
+        width: 920px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width: 1200px;
+    }
+    .col-30{
+        width: 30%;
+    }
+    .col-45{
+        width: 45%;
+    }
+    .col-45 h1 {
+        font-size: 70px;
+    }
+    .sec-two h2 {
+        font-size: 66px;
+    }
+    .main-text-2 p {
+        width: 59%;
+    }
 }
 
 
