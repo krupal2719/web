@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Noto Serif', serif;
 }
 .container{
     width: 1300px;
@@ -36,12 +36,16 @@ select{
     left: 305px;
     top: 25px;
     color: rgb(243, 75, 75);
+    font-size: 20px;
+    opacity: 0.7;
 }
 .inputs i{
     position: absolute;
     z-index: 1;
     top: 25px;
     left: 490px;
+    opacity: 0.4;
+    font-size: 18px;
 }
 .inputs{
     width: 40%;
@@ -68,30 +72,32 @@ select{
 }
 .icon-2{
     margin: 10px 0;
+    cursor: pointer;
 }
 .icon-2 h2{ 
     padding: 0 10px;
-    color: rgb(248, 128, 128);
 }
 .icon-2:hover{
+    color: rgb(248, 128, 128);
     border-bottom: solid 2px red;
 }
 .icon-3{
     margin: 10px 60px;
+    cursor: pointer;
 }
 .icon-3 h2{
     padding: 0 10px;
-    color: rgb(248, 128, 128);
 }
 .icon-3:hover{
+    color: rgb(248, 128, 128);
     border-bottom: solid 2px red;
 }
 .sec-one{
     padding: 20px 0;
     background-color: beige;
-    /* position: sticky;
+    position: sticky;
     top: 0;
-    width: 100%; */
+    /* width: 100%; */
 }
 .filter ul li{
     list-style: none;
@@ -112,7 +118,6 @@ select{
     padding: 4px 10px;
 }
 .sec-two{
-    /* height: 1400px; */
     padding: 25px 0;
     background-color: rgba(217, 222, 227, 0.501);
 }
@@ -154,7 +159,7 @@ select{
 }
 .sec-four-taxt p{
     display: inline;
-    font-size: 15px;
+    font-size: 14px;
     opacity: 0.4;
 }
 .sec-four-taxt span i{
@@ -181,6 +186,7 @@ select{
 .sec-five-taxt p{
     display: inline;
     opacity: 0.4;
+    font-size: 14px;
 }
 .sec-five-taxt span i{
     margin-left: 10rem;
@@ -196,18 +202,73 @@ select{
 .sec-six-taxt p{
     display: inline;
     opacity: 0.4;
+    font-size: 14px;
 }
 .sec-six-taxt span i{
     margin-left: 10rem;
     opacity: 0.4;
 }
-ul li{
-    list-style: none;
+.sec-seven{
+    /* height: 500px; */
+    padding: 50px 0;
+    background-color: rgba(255, 192, 203, 0.118);
 }
-li i{
-    padding: 10px;
-    color: white;
-    background-color: brown;
+.sec-seven h3{
+    font-size: 30px;
+    padding: 25px 0;
+}
+.details{
+    cursor: pointer;
+    width: 95%;
     border: solid 1px;
-    border-radius: 50%;
+    margin: 10px 0;
 }
+summary{
+    font-size: 25px;
+    padding: 10px;
+}
+details p{
+    font-size: 20px;
+}
+footer{
+    padding: 40px 0;
+    background-color: rgba(193, 191, 191, 0.077);
+}
+.fot-one select{
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.fot-one h2{
+    font-size: 40px;
+    display: inline;
+}
+.fot-two{
+    padding: 40px 0;
+} 
+.fot-two h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.fot-two ul li{
+    list-style: none;
+    margin: 2px 0;
+}
+.fot-two li a{
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 0.6;
+}
+.for-enterprises{
+    padding: 5px 0;
+}
+.social-link i{
+    cursor: pointer;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+
+
