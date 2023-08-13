@@ -6,11 +6,12 @@
     font-family: 'Noto Serif', serif;
 }
 .container{
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
 }
 .row{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 .jcs{
     justify-content: space-between;
@@ -33,7 +34,7 @@ select{
 .location i{
     position: absolute;
     cursor: pointer;
-    left: 305px;
+    left: 355px;
     top: 25px;
     color: rgb(243, 75, 75);
     font-size: 20px;
@@ -42,8 +43,8 @@ select{
 .inputs i{
     position: absolute;
     z-index: 1;
-    top: 25px;
-    left: 490px;
+    top: 26px;
+    left: 542px;
     opacity: 0.4;
     font-size: 18px;
 }
@@ -95,8 +96,8 @@ select{
 .sec-one{
     padding: 20px 0;
     background-color: beige;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     /* width: 100%; */
 }
 .filter ul li{
