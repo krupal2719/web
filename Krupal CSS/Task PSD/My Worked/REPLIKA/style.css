@@ -9,9 +9,11 @@
     width: 1200px;
     margin: 0 auto;
 }
+.col-30{
+    width: 100%;
+}
 .row{
     display: flex;
-    /* flex-wrap: wrap; */
 }
 .jcs{
     justify-content: space-between;
@@ -45,7 +47,7 @@ select{
     z-index: 1;
     top: 26px;
     left: 542px;
-    opacity: 0.4;
+    opacity: 0.3;
     font-size: 18px;
 }
 .inputs{
@@ -210,11 +212,40 @@ select{
     opacity: 0.4;
 }
 .sec-seven{
+    padding: 25px 0;
+}
+.main-taxt h3{
+    font-size: 30px;
+    padding: 35px 0;
+} 
+.sub-taxt h3{
+    font-size: 25px;
+}
+.sub-taxt{
+    border: solid 1px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sub-taxt-see-more{
+    font-size: 25px;
+    border: solid 1px;
+    padding: 10px 10px;
+    width: 50%;
+    margin: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sub-taxt-see-more h3{
+    text-align: center;
+    align-items: center;
+}
+.sec-eight{
     /* height: 500px; */
     padding: 50px 0;
     background-color: rgba(255, 192, 203, 0.118);
 }
-.sec-seven h3{
+.sec-eight h3{
     font-size: 30px;
     padding: 25px 0;
 }
