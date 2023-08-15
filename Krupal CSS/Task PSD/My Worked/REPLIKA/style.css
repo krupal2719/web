@@ -6,11 +6,14 @@
     font-family: 'Noto Serif', serif;
 }
 .container{
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
 }
 .col-30{
-    width: 100%;
+    /* width: 30%; */
+}
+.col-35{
+    /* width: 35%; */
 }
 .row{
     display: flex;
@@ -19,8 +22,8 @@
     justify-content: space-between;
 }
 .img{
-    cursor: pointer;
-    margin: 0 10px;
+    /* margin: 0 10px; */
+    margin-right: 40px;
 }
 .align{
     align-items: center;
@@ -32,11 +35,12 @@ select{
     padding: 15px 45px;
     margin: 0 2px;
     cursor: pointer;
+    border-radius: 10px;
 }
 .location i{
     position: absolute;
     cursor: pointer;
-    left: 355px;
+    left: 275px;
     top: 25px;
     color: rgb(243, 75, 75);
     font-size: 20px;
@@ -46,19 +50,19 @@ select{
     position: absolute;
     z-index: 1;
     top: 26px;
-    left: 542px;
+    left: 465px;
     opacity: 0.3;
     font-size: 18px;
 }
 .inputs{
-    width: 40%;
+    width: 50%;
     padding: 10px 0;
 }
 .inputs input{
-    cursor: pointer;
     position: relative;
     padding: 15px 40px;
     width: 100%;
+    border-radius: 10px;
 }
 .links ul li{
     display: inline-block;
@@ -129,7 +133,6 @@ select{
     padding: 20px 0;
 }
 .sec-two-taxt img{
-    cursor: pointer;
     border-radius: 50%;
 }
 .sec-two-taxt h3{
@@ -139,7 +142,6 @@ select{
     padding: 25px 0;
 }
 .sec-Three-taxt img{
-    cursor: pointer;
     border-radius: 50%;
 }
 .sec-three h2{
@@ -173,7 +175,7 @@ select{
     /* border: solid 0.5px; */
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .col-30{
     /* width: 30%; */
@@ -260,7 +262,7 @@ select{
 }
 .details{
     cursor: pointer;
-    width: 95%;
+    /* width: 99%; */
     border: solid 1px;
     margin: 10px 0;
 }
