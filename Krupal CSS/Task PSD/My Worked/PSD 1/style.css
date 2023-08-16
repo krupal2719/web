@@ -532,18 +532,18 @@ input{
     }
     .sec-five-text h3{
         font-size: 25px;
-        text-align: center;  <
+        text-align: center; /* < */
         padding: 10px 0; 
     }
     .sec-five-text p {
         width: 53%;
         font-size: 15px;
-        margin: 0 auto;      <
+        margin: 0 auto;     /* < */
     }   
     .sec-five-text button{
         font-size: 11px;
         display: block;
-        margin: 10px auto;   <
+        margin: 10px auto;  /* < */
         padding: 10px 25px;
     } 
     .sec-six-text h3 {
@@ -680,18 +680,18 @@ input{
     } 
     .sec-five-text h3{
         font-size: 40px;
-        text-align: center;        <
+        text-align: center;        /* < */
         padding: 10px 0;
     }
     .sec-five-text p {
         width: 51%;
-        margin: 0 auto;            <
+        margin: 0 auto;            /* < */
         font-size: 20px;
     }
     .sec-five-text button {
         font-size: 12px;
         display: block;
-        margin: 10px auto;         <
+        margin: 10px auto;         /* < */
         padding: 10px 40px;
     }
     .sec-six-text h3 {

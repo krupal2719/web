@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Noto+Serif&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Pacifico&family=Preahvihear&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Noto+Serif&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Pacifico&family=Preahvihear&family=Sacramento&family=Ubuntu:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 .container{
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
+}
+.col-50{
+    width: 50%;
 }
 .col-30{
     /* width: 30%; */
@@ -17,40 +20,43 @@
 }
 .row{
     display: flex;
+    /* flex-wrap: wrap; */
+}
+.jcsa{
+    justify-content: space-around;
 }
 .jcs{
     justify-content: space-between;
 }
-.img{
-    /* margin: 0 10px; */
-    margin-right: 40px;
-}
 .align{
     align-items: center;
 }
-.location .option{
+.location option{
     padding: 10px 0;
+    opacity: 0.7;
 }
 select{
-    padding: 15px 45px;
+    padding: 15px 55px;
     margin: 0 2px;
-    cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(28, 28, 28, 0.186) 0px 2px 8px;
+    border: none;
+    opacity: 0.7;
 }
 .location i{
     position: absolute;
-    cursor: pointer;
-    left: 275px;
+    z-index: 1;
+    opacity: 0.3;
+    left: 305px;
     top: 25px;
     color: rgb(243, 75, 75);
     font-size: 20px;
-    opacity: 0.7;
 }
 .inputs i{
     position: absolute;
     z-index: 1;
     top: 26px;
-    left: 465px;
+    left: 515px;
     opacity: 0.3;
     font-size: 18px;
 }
@@ -59,23 +65,28 @@ select{
     padding: 10px 0;
 }
 .inputs input{
-    position: relative;
-    padding: 15px 40px;
+    /* position: relative; */
+    padding: 16px 40px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(28, 28, 28, 0.186) 0px 2px 8px;
+    border: none;
+    opacity: 0.7;
 }
 .links ul li{
     display: inline-block;
     list-style: none;
 }
 .links{
-    margin: 0 40px;
+    /* margin: 0 40px; */
+    margin-left: 50px;  
 }
 .links a{
     font-size: 20px;
-    margin: 0 20px;
+    margin: 0 15px; 
     color: rgb(105, 105, 105);
     text-decoration: none;
+    opacity: 0.5;
 }
 .icon-2{
     margin: 10px 0;
@@ -101,7 +112,7 @@ select{
 }
 .sec-one{
     padding: 20px 0;
-    background-color: beige;
+    background-color: rgba(241, 230, 230, 0.39);
     /* position: sticky;
     top: 0; */
     /* width: 100%; */
@@ -129,7 +140,7 @@ select{
     background-color: rgba(217, 222, 227, 0.501);
 }
 .sec-two h2{
-    font-size: 40px;
+    font-size: 35px;
     padding: 20px 0;
 }
 .sec-two-taxt img{
@@ -145,7 +156,7 @@ select{
     border-radius: 50%;
 }
 .sec-three h2{
-    font-size: 40px;
+    font-size: 35px;
     padding: 20px 0;
 }
 .sec-Three-taxt h3{
@@ -155,7 +166,7 @@ select{
     padding: 20px 0;
 }
 .sec-four-main h3{
-    font-size: 40px;
+    font-size: 35px;
     padding: 20px 0;
 }
 .sec-four-taxt h3{
@@ -171,13 +182,13 @@ select{
     margin-left: 10rem;
     opacity: 0.4;
 }
-.col-30:hover{
+.cart:hover{
     /* border: solid 0.5px; */
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* cursor: pointer; */
 }
-.col-30{
+.cart{
     /* width: 30%; */
     padding: 10px 10px;
 }
@@ -218,7 +229,7 @@ select{
     list-style: none;
 }
 .target li a {
-    padding: 10px 10px;
+    padding: 15px;
     background-color: rgb(219, 41, 41);
     border-radius: 50%;
 }
@@ -227,29 +238,27 @@ select{
 }
 .main-taxt h3{
     font-size: 30px;
-    padding: 35px 0;
+    /* padding: 35px 0; */
 } 
 .sub-taxt h3{
     font-size: 25px;
 }
 .sub-taxt{
-    border: solid 1px;
+    /* border: solid 1px;  */
     padding: 10px;
     width: 50%;
     margin: 20px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 0px 3px 0 rgba(0, 0, 0, 0.19);
 }
 .sub-taxt-see-more{
-    font-size: 25px;
-    border: solid 1px;
-    padding: 10px 10px;
+    /* border: solid 1px; */
+    padding: 10px;
     width: 50%;
     margin: 20px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 0px 3px 0 rgba(0, 0, 0, 0.19);
 }
 .sub-taxt-see-more h3{
-    text-align: center;
-    align-items: center;
+    font-size: 25px;
 }
 .sec-eight{
     /* height: 500px; */
@@ -262,7 +271,7 @@ select{
 }
 .details{
     cursor: pointer;
-    /* width: 99%; */
+    width: 98%;
     border: solid 1px;
     margin: 10px 0;
 }

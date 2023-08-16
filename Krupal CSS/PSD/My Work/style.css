@@ -495,13 +495,13 @@ li a{
         font-size: 13px;
     }
     .sec-two-subtaxt img{
-        width: 70%;
+        width: 50%;
     }
     .sec-two-subtaxt h3 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .sec-two-subtaxt p{
-        width: 70%;
+        width: 83%;
         font-size: 20px
     }
     .sec-three h3{
@@ -592,7 +592,7 @@ li a{
     .col-30{
         width: 50%;
         display: block;
-        margin: 10px auto;
+        margin: 0 auto;
         text-align: center;
     }
     .col-50{
@@ -769,7 +769,7 @@ li a{
         font-size: 30px;
     }
     .box-1 {
-        padding: 85px 35px;
+        padding: 65px 35px;
     }
     .sec-four-tatx h3{
         font-size: 60px;
