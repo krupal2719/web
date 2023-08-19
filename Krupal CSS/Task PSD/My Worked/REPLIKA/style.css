@@ -90,7 +90,7 @@ select{
 }
 .icon-2{
     margin: 10px 0;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .icon-2 h2{ 
     padding: 0 10px;
@@ -101,7 +101,7 @@ select{
 }
 .icon-3{
     margin: 10px 60px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .icon-3 h2{
     padding: 0 10px;
@@ -179,7 +179,7 @@ select{
     opacity: 0.4;
 }
 .sec-four-taxt span i{
-    margin-left: 10rem;
+    margin-left: 8rem;
     opacity: 0.4;
 }
 .cart:hover{
@@ -189,8 +189,11 @@ select{
     /* cursor: pointer; */
 }
 .cart{
-    /* width: 30%; */
-    padding: 10px 10px;
+    width: 30%;
+    padding: 10px;
+}
+.cart img{
+    width: 100%;
 }
 .sec-five-taxt-1 img{
     border-radius: 10px;
@@ -205,7 +208,7 @@ select{
     font-size: 14px;
 }
 .sec-five-taxt span i{
-    margin-left: 10rem;
+    margin-left: 8rem;
     opacity: 0.4;
 }
 .sec-six-taxt-1 img{
@@ -221,7 +224,7 @@ select{
     font-size: 14px;
 }
 .sec-six-taxt span i{
-    margin-left: 10rem;
+    margin-left: 8rem;
     opacity: 0.4;
 }
 .target ul li{
@@ -277,7 +280,7 @@ select{
 }
 summary{
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
 }
 details p{
     font-size: 20px;
@@ -322,5 +325,3 @@ footer{
     color: white;
     background-color: black;
 }
-
-
