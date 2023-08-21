@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Jaldi', sans-serif;;   
 }
 .container{
     width: 1300px;
@@ -137,7 +137,7 @@ select{
 }
 .sec-two{
     padding: 25px 0;
-    background-color: rgba(217, 222, 227, 0.501);
+    background-color: rgba(207, 212, 216, 0.168);
 }
 .sec-two h2{
     font-size: 35px;
@@ -189,7 +189,7 @@ select{
     /* cursor: pointer; */
 }
 .cart{
-    width: 30%;
+    width: 30%;         /*<*/
     padding: 10px;
 }
 .cart img{
@@ -232,12 +232,17 @@ select{
     list-style: none;
 }
 .target li a {
-    padding: 15px;
+    padding: 20px;
     background-color: rgb(219, 41, 41);
+    color: white;
     border-radius: 50%;
+    float: right;
+    position: sticky;
+    right: 15px;
+    opacity: 0.8;
 }
 .sec-seven{
-    padding: 25px 0;
+    /* padding: 25px 0; */
 }
 .main-taxt h3{
     font-size: 30px;
@@ -264,7 +269,6 @@ select{
     font-size: 25px;
 }
 .sec-eight{
-    /* height: 500px; */
     padding: 50px 0;
     background-color: rgba(255, 192, 203, 0.118);
 }
